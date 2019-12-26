@@ -1,12 +1,14 @@
 Feature Extraction Project
+
 Part I
+
 Implement several feature extraction methods that reduce the dimensionality of the data from m to 2.
 Input: two files: data and labels. The data is a comma separated matrix of size n x m. Here the data
-points are the rows, not the columns. The \labels" is an array of size n. The labels can only take the
+points are the rows, not the columns. The "labels" is an array of size n. The labels can only take the
 values 1,2,3.
 Output:
- A comma separated file containing the n x 2 matrix of the reduced data.
- A comma separated file containing the two vectors v1; v2 as a matrix of size 2 x m.
+1. A comma separated file containing the n x 2 matrix of the reduced data.
+2. A comma separated file containing the two vectors v1; v2 as a matrix of size 2 x m.
 
 Programs: Read the files for the matrices XT and the labels y. Use these to calculate two vectors v1; v2,
 each of size m. Compute the projections of XT on v1; v2 and use them to create the matrix D of size n x 2.
@@ -21,6 +23,7 @@ Programs that you are asked to implement:
 Try your programs on the following two datasets: irises, wine.
 
 Part II
+
 Feature extraction can be guided by various criteria. In this part our goal is to perform dimensionality
 reduction to be followed by nearest neighbor. Specifically, training is performed with the input being the
 same as in Part I. Then, given a test vector x of length m, it is reduced into two dimensions vx; vy. The
@@ -28,8 +31,9 @@ program searches for the vector in the training data that is nearest to vx; vy a
 You are asked to implement only the dimension reduction part, for two cases. In the worst case all items
 in the training data are candidates for the nearest neighbor. Your goal is to try to get the data as evenly
 distributed as possible. In the second case the nearest neighbor must be of a specified label.
+
 Programs
-1. reducedim1.py : reduced dimension for the rst case.
+1. reducedim1.py : reduced dimension for the worst case.
 2. reducedim2.py : reduced dimension for the second case.
 The arguments for reducedim1.py and reducedim2.py are the same as in Part I.
 
