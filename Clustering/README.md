@@ -5,9 +5,10 @@ Setting the seed for random numbers to 1
 All program in this project implement randomized algorithms. Without fixing the seed for the random number generator they may give a different results in each run. We ask that you fix the random seed to 1 so that each run should produce the exact same result. This can be done by putting the following lines atthe top of your program:
 
 --------------------------------------------------
-# set the random seeds to make sure your results are reproducible
+#set the random seeds to make sure your results are reproducible
 from numpy.random import seed
 seed(1)
+
 --------------------------------------------------
 
 Obtaining the data
@@ -47,6 +48,7 @@ Python3 lloyd.py data1.txt 2 5 labels1.txt
 
 
 Part II
+
 Implement the spectral clustering technique that partitions the data into k clusters.
 1. The data should be converted into a complete graph (no nearest neighbors) where the weights wij are computed as shown in the handout.
 2. Observe that the value of sigma is not given. It is your responsibility to find a good sigma value by running
@@ -73,7 +75,7 @@ Python3 spectral.py data1.txt 3 1.5 labels1.txt
 
 Observe that the internal parameter r to be used by the internal k-means algorithm is to be hard coded and
 not given as input.
-What you need to submit
+
 
 
 Step 1. 
