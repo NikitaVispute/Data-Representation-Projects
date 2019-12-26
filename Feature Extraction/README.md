@@ -3,9 +3,11 @@ Feature Extraction Project
 Part I
 
 Implement several feature extraction methods that reduce the dimensionality of the data from m to 2.
+
 Input: two files: data and labels. The data is a comma separated matrix of size n x m. Here the data
 points are the rows, not the columns. The "labels" is an array of size n. The labels can only take the
 values 1,2,3.
+
 Output:
 1. A comma separated file containing the n x 2 matrix of the reduced data.
 2. A comma separated file containing the two vectors v1; v2 as a matrix of size 2 x m.
