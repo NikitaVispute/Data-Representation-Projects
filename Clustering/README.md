@@ -1,4 +1,9 @@
-Clustering Project
+# Clustering Project
+
+**Technology: Python.<br>
+•	Implemented randomized clustering algorithms like Lloyd’s k-means and k-means ++ to cluster the given data and report the quantization error.<br>
+•	Implemented the spectral clustering technique to partition the data into the given number of clusters.<br>**
+
 
 Setting the seed for random numbers to 1
 
