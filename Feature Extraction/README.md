@@ -1,8 +1,10 @@
-Feature Extraction Project
+**Feature Extraction Project**
 
-Technology: Python.
-1. Implemented feature extraction methods like principal component analysis and scatter methods to perform dimensionality reduction on data.
-2. Also classified new test data points using nearest neighbor method.
+**Technology: Python.**
+
+**1. Implemented feature extraction methods like principal component analysis and scatter methods to perform dimensionality reduction on data.**
+
+**2. Also classified new test data points using nearest neighbor method.**
 
 Part I
 
